@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 // Simple home page
 app.get('/', (req, res) => {
   res.send(`
-    <h1>🚀 My DevOps Web App first project</h1>
+    <h1>🚀 My DevOps Web App first project looks good</h1>
     <p>This app was deployed automatically!</p>
     <p>Current time: ${new Date().toLocaleString()}</p>
     <p>Total requests: ${requestCount}</p>
